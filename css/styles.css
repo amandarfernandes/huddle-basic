@@ -44,7 +44,9 @@ h1, h2, h3, h4 {
 }
 
 .main-header {
-    margin: 50px 75px;
+    margin: 50px 0px 5em;
+    padding-left: 1em;
+    width:100%;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -53,6 +55,7 @@ h1, h2, h3, h4 {
 .logo img{
     max-width:80%;
     height:auto;
+    align-self: flex-start;
 }
 
 section {
